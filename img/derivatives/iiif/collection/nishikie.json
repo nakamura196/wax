@@ -3,19 +3,14 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/qatar.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/nishikie.json",
   "@type": "sc:Collection",
-  "label": "qatar",
+  "label": "nishikie",
   "manifests": [
     {
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/bbb/manifest.json",
       "@type": "sc:Manifest",
       "label": "bbb"
-    },
-    {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj1/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "obj1"
     }
   ]
 }

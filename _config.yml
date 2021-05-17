@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
+title:            '錦絵コレクション'
+description:      '本所が所蔵する『維新前後諷刺画』を紹介します。なおこのギャラリーは、東京大学史料編纂所画像史料解析センターの９７年度事業によるものです。'
+url:              'https://nakamura196.github.io'
 baseurl:          '/wax'
-copyright:        'Example copyright org, 2019'
+copyright:        '東京大学史料編纂所, 2021'
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -66,7 +66,7 @@ collections:
     output: true
   qatar: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'qatar_item' # the layout for the pages to use
+    layout: 'nishikie_item' # the layout for the pages to use
     metadata:
       source: 'qatar.csv' # path to the metadata file within `_data`
     images:
@@ -85,7 +85,7 @@ search:
     index: '/search/index.json' # file the index will get written to
     collections:
       qatar:
-        content: false # whether or not to index page content
+        content: true # whether or not to index page content
         fields: # the metadata fields to index
           - artist
           - location
@@ -102,25 +102,11 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
-    sub:
-      - label: 'Wax'
-        link: '/about/'
-      - label: 'Documentation'
-        link: 'https://minicomp.github.io/wiki/wax/'
-      - label: 'Credits'
-        link: '/credits/'
-  - label: 'Exhibits'
-    sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
-  - label: 'Browse'
+  - label: '一覧'
     link: '/collection/'
-  - label: 'Search'
+  - label: '検索'
     link: '/search/'
-  - label: 'Reuse'
+  - label: 'データセット'
     link: '/reuse/'
 
 # --------------------------------------------------------------
@@ -130,13 +116,11 @@ menu:
 
 footer:
   links:
-    - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
     - label: 'Credits'
       link: '/credits'
     - label: 'Contact'
       link: 'https://gitter.im/minicomp/wax/'
   logos:
-    - img: '/img/logo.png'
+    - img: 'https://hi-ut.github.io/assets/img/common/favicon-72.png'
 
 # FIN

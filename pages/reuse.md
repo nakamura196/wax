@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Reuse the Collection
+title: データセット
 permalink: /reuse/
 collection: qatar
 ---
 
-Wax is inspired by [FAIR data principles](https://journal.code4lib.org/articles/13427), and as such strives to make its collections findable, accessible, interoperable and reusable.
+Waxは[FAIRデータ原則](https://journal.code4lib.org/articles/13427)に基づいて、コレクションを見つけやすく、アクセスしやすく、相互運用性があり、再利用可能なものにするために努力しています。
 
-The demo site comes with a specific `_include` called `interactive_metadata_table` to help you make pages like this one complete with interactive [DataTables](https://datatables.net/) and downloadable CSVs of collection metadata.
+本サイトでは、Waxが提供する`interactive_metadata_table`という特定の`_include`を利用して、以下のようにインタラクティブな[DataTables](https://datatables.net/)とCSVファイルを提供します。
 
 {% include interactive_metadata_table.html collection=page.collection %}

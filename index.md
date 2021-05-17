@@ -3,15 +3,19 @@ layout: page
 show_title: false
 banner:
   collection: qatar
-  pid: obj10
-  y: 25%
+  pid: bbb
+  y: 50%
   height: '500px'
 ---
 
-__Wax__ is a [minimal computing](http://go-dh.github.io/mincomp/) project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our [documentation](https://minicomp.github.io/wiki/#/wax/) for installation instructions and more.
+__東京大学史料編纂所錦絵コレクション__ は、東京大学史料編纂所画像史料解析センターの９７年度事業として所が所蔵する錦絵を紹介するために作られました。今後は、データベースからのイメージリンクという影写本で確立した方法を目指しますが、とりあえずカラーイメージによる『維新前後諷刺画』をギャラリーとして常設します。錦絵コレクション全体をざっと見る場合は、こちらのギャラリーのほうが便利だと思いますので、ご利用ください。
 
-The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+イメージは、直接画像を見ていただければわかりますが、色補正などは行なっておりません。また、圧縮は多少強めにかけてあります。JPEGフルカラーですが、適当なビューワを御使いになり、256色まで減色すると画像としては見やすくなるようです。しかし、サーバの画像としては、軽さやさまざまな需要に対応するという理由から、現状のような形式を採用してあります。
 
-### Browse the Collection
+96年度特定研究経費「幕末維新期の対外関係史料の収集・分析」によって、史料編纂所が所蔵する主要な錦絵コレクション約1000葉が撮影・データ処理されました。これらの多くは維新史料編纂会引継本です。
+
+フィルムを必要とする方は、図書部までお問い合わせください。
+
+### 一覧
 
 {% include collection_gallery.html facet_by='object_type' collection='qatar' %}

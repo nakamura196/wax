@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search the Collection
+title: 検索
 permalink: /search/
 ---
 
-{% include search_box.html search='main' %}
+{% include search_box.html search='main' placeholder="検索" %}
