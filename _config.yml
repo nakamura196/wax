@@ -19,9 +19,11 @@
 # ~> https://jekyllrb.com/docs/configuration/options/
 
 title:            '錦絵コレクション'
-description:      '本所が所蔵する『維新前後諷刺画』を紹介します。なおこのギャラリーは、東京大学史料編纂所画像史料解析センターの９７年度事業によるものです。'
+description:      '東京大学史料編纂所が所蔵する錦絵のデータベースです。'
+# url:              "http://localhost:4000" 
+# baseurl:          "/" #'/wax'
 url:              'https://nakamura196.github.io'
-baseurl:          '/wax'
+baseurl:          "/wax" #'/wax'
 copyright:        '東京大学史料編纂所, 2021'
 logo:             '/assets/logo.png'
 
@@ -87,12 +89,9 @@ search:
       qatar:
         content: true # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
-          - location
           - label
-          - _date
-          - object_type
-          - current_location
+          - 題名
+          - 書名
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
@@ -116,10 +115,8 @@ menu:
 
 footer:
   links:
-    - label: 'Credits'
-      link: '/credits'
-    - label: 'Contact'
-      link: 'https://gitter.im/minicomp/wax/'
+    - label: '利用条件'
+      link: 'https://www.hi.u-tokyo.ac.jp/faq/reuse.html'
   logos:
     - img: 'https://hi-ut.github.io/assets/img/common/favicon-72.png'
 

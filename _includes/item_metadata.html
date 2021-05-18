@@ -15,6 +15,7 @@
         {% if key == 'manifest' %}
           {%- capture value -%}
             <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">{{ value | absolute_url }}</a>
+            <a href="http://mirador.cultural.jp/?manifest={{ value | absolute_url }}" target="_blank" rel="noreferrer">Mirador</a>
           {%- endcapture -%}
         {% else %}
           {%- capture value -%}
